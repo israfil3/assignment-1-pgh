@@ -8,6 +8,7 @@ body {
     margin: 0px 30px;
     font-family: 'Work Sans', sans-serif;
 }
+/* nav -area start */
 .nav-area {
     width: 100%;
     height: 80vh;
@@ -35,7 +36,9 @@ body {
     border: 0;
     border-radius: 5px;
 }
+/* nav area end */
 
+/* identiy area start */
 .identiy-area {
     display: flex;
 }
@@ -66,6 +69,9 @@ body {
     color: rgb(4, 128, 0);
     margin-right: 5px;
 }
+/* indentiy end */
+
+/* plan area start */
 .plan-heading {
     text-align: center;
     margin: 15px 0px;
@@ -93,6 +99,9 @@ body {
 .gradinent-contener {
     margin: 60px 50px;
 }
+/* plan area end */
+
+/* gradient area start */
 .gradient-area {
     width: 100%;
     height: 200px;
@@ -114,6 +123,9 @@ body {
     color: rgb(235, 8, 8);
     font-size: 15px;
 }
+/* gradient area end */
+
+/* footer-area start */
 .footer-area {
     width: 100%;
     height: 300px;
@@ -137,7 +149,7 @@ body {
 .footer-content .link-content .fa-brands {
     background: rgb(255, 255, 255);
     font-size: 40px;
-    padding: 10px;
+    padding: 7px;
     border-radius: 50%;
     margin-right: 20px;
 }
@@ -163,3 +175,4 @@ body {
 ::placeholder {
     color: #fff;
 }
+/* footer area end */
