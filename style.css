@@ -4,6 +4,10 @@
     box-sizing: border-box;
 
 }
+body {
+    margin: 0px 30px;
+    font-family: 'Work Sans', sans-serif;
+}
 .nav-area {
     width: 100%;
     height: 80vh;
@@ -87,12 +91,12 @@
     color: #737272;
 }
 .gradinent-contener {
-    margin: 50px;
+    margin: 60px 50px;
 }
 .gradient-area {
     width: 100%;
     height: 200px;
-    background:linear-gradient(to top right, rgba(255, 0, 0, 0.527) , rgba(0, 128, 0, 0.161)) ,url('images/watch.png') no-repeat center center / cover;
+    background:linear-gradient(to top right, rgba(47, 0, 255, 0.662) , rgba(143, 126, 149, 0.484)) ,url('images/watch.png') no-repeat center center / 100%;
     border-radius: 10px;
     padding: 30px;
 }
@@ -102,11 +106,60 @@
     color: #fff;
 }
 .btn {
-    padding: 10px 30px;
+    padding: 15px 30px;
     background: rgb(241, 230, 26);
     border: 0;
     border-radius: 5px;
     margin-top: 30px;
     color: rgb(235, 8, 8);
     font-size: 15px;
+}
+.footer-area {
+    width: 100%;
+    height: 300px;
+    background: black;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px 200px;
+    gap: 200px;
+}
+.footer-content-heading {
+    margin-bottom: 20px;
+}
+.footer-content p {
+    margin-bottom: 10px;
+}
+.footer-content .link-content {
+    margin-top: 15px;
+}
+.footer-content .link-content .fa-brands {
+    background: rgb(255, 255, 255);
+    font-size: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.fa-twitter {
+    color: green;
+}
+.fa-github {
+    color: black;
+}
+.fa-google {
+    color: red;
+}
+.footer-login .footer-login-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.footer-login #email {
+    padding: 20px 30px;
+    background: black;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+::placeholder {
+    color: #fff;
 }
